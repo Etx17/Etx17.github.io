@@ -1,0 +1,75 @@
+.banner {
+  background-color: blue;
+  background-image: url(../../images/background.png);
+  background-size: cover;
+  padding: 120px 0;
+  display:flex;
+  align-items: center;
+  justify-content:center;
+  color: white;
+}
+.banner-content{
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+h1 {
+  margin-bottom: 0px;
+}
+p {
+  color: grey;
+  font-size: 21px;
+}
+.button {
+  padding: 12px 20px;
+  background-color: rgb(152, 223, 152);
+  border-radius: 24px;
+  color: white;
+  width: 100px;
+  text-align: center;
+}
+.container {
+  width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+.card-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 auto;
+
+
+}
+
+.card {
+  width: 200px;
+  padding: 10px;
+  box-shadow: 0 3px 3px 0 rgb(0,0,0,0.2);
+  text-align: center;
+}
+
+.card img{
+  height: 100px;
+  width: 100%;
+}
+
+.footer {
+  padding: 50px 0;
+  margin-top: 40px;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  background-color:rgb(61, 58, 58);
+  color:antiquewhite;
+}
+.links {
+  display:flex;
+  /* flex-direction: row; */
+  /* justify-content: center; */
+}
+.links a{
+  margin: 3px;
+  font-size: 30px;
+  color: rgb(152, 223, 152);
+}
